@@ -1,17 +1,21 @@
 function Network(){
     var successCallBack;
     var failedCallBack;
+    
     this.url = function(){
       
       return "";
     }
+
     this.param = function(){
 
       return "";
     }
+
     this.requestType = function(){
       return "None";
     }
+
     this.request = function(){
        var that = this;
        var xmlhttp = new XMLHttpRequest();
